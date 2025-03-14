@@ -17,7 +17,7 @@ function Quiz({ category, goBack }) {
   const [submitted, setSubmitted] = useState(false);
   const [score, setScore] = useState(0);
   const [quizFinished, setQuizFinished] = useState(false);
-  const [hoveredIndex, setHoveredIndex] = useState(null); // Track hover state
+  const [hoveredIndex, setHoveredIndex] = useState(null); 
 
   const question = quizData[category][currentQuestion];
 
